@@ -1,0 +1,7 @@
+Após isso, use o dot notation para acessar a propriedade classList do elemento que acabamos de salvar. Essa propriedade é um objeto com métodos, que também podemos acessar usando o dot notation.
+
+Agora, vamos usar o método contains(). Ele verifica se um elemento possui ou não uma determinada classe e retorna um valor booleano.
+
+O método contains() recebe como argumento uma string com o nome da classe. Dessa forma, o retorno será true se o elemento conter essa classe e, caso não a possua, será false.
+
+Considere o método toggle() como um interruptor que nos permite alternar facilmente entre add() e remove().

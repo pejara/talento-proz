@@ -1,0 +1,15 @@
+Para o elemento span, usamos a propriedade opacity para definir a opacidade ou a transparência do elemento, passando valores entre 0 (completamente transparente) até 100 (completamente opaco).
+
+ 
+
+Também usamos a propriedade transition para definir que todas as propriedades alteradas no elemento de valor all deverão ter uma transição de 0.3 segundos, com valor 0.3s.
+
+/*Depois disso, logo embaixo da função criada, chamamos o elemento button e aplicamos o método addEventListener() nele, que deve receber dois argumentos. O primeiro será a string mouseover e o segundo, o nome da função mostrarSpan, sem os parênteses, pois estamos apenas passando-a como argumento.*/
+
+O evento click é a junção de dois eventos do mouse: mousedown, que é disparado quando clicamos o botão esquerdo do mouse, e mouseup, que é disparado quando soltamos esse mesmo botão.
+
+Assim, click é o ato de apertar e soltar o botão esquerdo do mouse sobre algum elemento. Para exemplificar, vamos começar criando uma função para alterar o conteúdo textual do nosso section.
+
+Conseguiu aprender os quatro principais eventos de interatividade? Existem outros eventos de click que podemos usar nos nossos sites. Se você quiser conferi-los ou entender a diferença entre os eventos mouseout e mouseleave, confira as leituras complementares!
+
+Muito bem! Se passarmos a função com os parênteses, o navegador executará a função automaticamente ao invés de esperar ela ser chamada com o evento.

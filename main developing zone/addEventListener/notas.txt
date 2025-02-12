@@ -1,0 +1,12 @@
+Sempre que desejarmos implementar a interatividade nas nossas páginas, devemos nos fazer três perguntas: “Quem?”, “O quê?” e “Quando?”.
+
+//Quem?
+Se refere aos elementos HTML que participam da interatividade. Geralmente, precisamos de, no mínimo, dois elementos: o que ativará a mudança e o que sofrerá as alterações.
+
+//O quê?
+Se refere ao comportamento da interatividade em si. Nessa etapa, usaremos a lógica de programação para descrever aquilo que deve acontecer com os elementos definidos na primeira etapa.
+
+//Quando?
+Se refere ao evento que acionará o comportamento definido na etapa anterior.
+
+O método addEventListener() é uma função que precisa de, no mínimo, dois argumentos para funcionar. O primeiro argumento é uma string que define o tipo de evento que acionará nossa função. No nosso exemplo, usaremos a string click, o segundo argumento deve ser uma função com o comportamento que queremos executar.
