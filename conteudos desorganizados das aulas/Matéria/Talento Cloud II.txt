@@ -1,0 +1,34 @@
+porra de questão tmnc vou perguntar na aula
+
+Dados Inteiros = INT
+Dados reais = Número de ponto flutante
+Caractere = letras,string
+Lógico = boolean
+
+dados são armezandos em váriaeis
+váriaveis recebm valores,e nomeamos-as com identificadores
+
+Tipo Inteiro,Real,Caractere e Lógica
+
+Algoritmo
+Váriaves podem mudar de valor
+
+Constante
+Não sofrem alterações
+Valor fix
+Ex = Pi = 3,14
+
+ATRIBUIÇÃO
+==
+
+atribuição <- ?
+
+Comandos
+
+Entrada
+
+Saída
+->Mostra ao usuário
+
+Blocos
+Etapas

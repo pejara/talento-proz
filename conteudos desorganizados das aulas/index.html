@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introdução ao JavaScript</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./img/icons8-javascript-32.png" type="image/x-icon">
+<script src="./do-python-ao-js.js" defer></script>
+<script src="./praticando.js"></script>
+</head>
+<body>
+<header>
+<h1>Introdução ao JavaScript</h1>
+</header>
+<main>
+<section>
+<h2>Contextualização do JavaScript</h2>
+<p>Hoje vamos começar com o JavaScript. Quero contextualizar dizendo que JavaScript é uma linguagem de programação que foi criada por Brendan Eich em 1995. É amplamente utilizada no desenvolvimento front-end para criar interatividade em páginas web. Uma curiosidade interessante é que, apesar do nome semelhante, JavaScript e Java são duas linguagens diferentes. JavaScript foi nomeado assim para capitalizar a popularidade do Java na época, mas suas sintaxes e propósitos são distintos.</p>
+</section>
+<section>
+<h2>Popularidade no Front-End</h2>
+<p>É uma das linguagens mais utilizadas no desenvolvimento front-end. É essencial para criar experiências dinâmicas e interativas na web.</p>
+</section>
+<section>
+<h2>Declaração de Variáveis</h2>
+<p>Vamos explorar como declarar variáveis em JavaScript e compará-las com Python:</p>
+<ul>
+<li><strong>JavaScript:</strong></li>
+<ul>
+<li><code><strong>var</strong> nome = "João";</code> - Declara uma variável com escopo global ou local.</li>
+<li><code><strong>let</strong> idade = 30;</code> - Declara uma variável com escopo de bloco.</li>
+<li><code><strong>const</strong> cidade = "São Paulo";</code> - Declara uma variável de valor constante, que não pode ser reatribuído.</li>
+</ul>
+<li><strong>Python:</strong></li>
+<ul>
+<li><code>nome = "João"</code> - Declara uma variável sem especificar o tipo.</li>
+<li><code>idade = 30</code> - Declara uma variável com um valor.</li>
+<li><code>cidade = "São Paulo"</code> - Declara uma variável com um valor.</li>
+</ul>
+</ul>
+</section>
+<section>
+<h2>Como Linkar um Arquivo JavaScript no HTML</h2>
+<p>Para adicionar um arquivo JavaScript ao seu HTML, você precisa usar a tag <code>&lt;script&gt;</code>. Existem duas maneiras principais de fazer isso:</p>
+<ul>
+<li><strong>Linkar um arquivo JavaScript externo:</strong></li>
+<p>Você pode linkar um arquivo JavaScript externo usando o atributo <code>src</code>. Por exemplo:</p>
+<pre><code>&lt;script src="script.js" defer&gt;&lt;/script&gt;</code></pre>
+<p>Isso diz ao navegador para carregar e executar o código JavaScript contido no arquivo <code>script.js</code>. O atributo <code>defer</code> garante que o script seja executado após o HTML ser completamente analisado, melhorando o desempenho da página.</p>
+<li><strong>Incluir JavaScript diretamente no HTML:</strong></li>
+<p>Você também pode incluir o código JavaScript diretamente dentro da tag <code>&lt;script&gt;</code>. Por exemplo:</p>
+<pre><code>&lt;script&gt;
+    console.log("Olá, Mundo!");
+&lt;/script&gt;</code></pre>
+<p>Isso executará o código JavaScript diretamente no HTML.</p>
+</ul>
+</section>
+<section>
+<!-- <h2>Link para acessar o QUIZZ</h2>
+<p>Você pode acessar o arquivo na nuvem através do seguinte Link:</p>
+<a href="https://1drv.ms/p/s!AjoUegNi_DrOkzOz1_98H6XdJ0bs?e=qKhW7E" target="_blank">Acessar o Quizz</a> -->
+<h2> Bora Praicar </h2>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 Introdução ao JavaScript. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
+
+//condição
+let emailDigitado = "usuario123@exemplo.com";
+let senhaDigitada = 123;
+ 
+const emailCorreto = "usuario@exemplo.com";
+const senhaCorreta = 124;
+ 
+    // verificar se o email digitado é igual ao email correto
+if (emailDigitado == emailCorreto && senhaDigitada == senhaCorreta){
+    console.log("Maravilha, pode entrar no sistema.");
+    console.log("Entrando no sistema...")
+} else if (emailDigitado == emailCorreto || senhaDigitada == senhaCorreta){
+    console.log("Ops! Vc digitou algo errado.")
+}else {
+    console.log("Usuário sem autorização!")
+};

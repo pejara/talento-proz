@@ -1,0 +1,9 @@
+#Obs:Vou fazer em python pois eu já conheço
+
+nome = input("Digite seu nome:")
+endereco = input("Digite seu endereço:")
+cidade = input("Digite o nome de sua cidade:")
+cpf = input("Digite seu cpf:")
+rg = input("Digite seu rg:")
+
+print(f"Seu nome é {nome},você mora na cidade de {cidade},em {endereco},seu CPF e RG são é {cpf} e {rg}")

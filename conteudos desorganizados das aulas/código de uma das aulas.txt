@@ -1,0 +1,69 @@
+// console.log(arrayPostagens);
+// // Trazer no console o 2º objeto da lista
+// console.log(arrayPostagens[1]);
+// // trazendo no console o título do 2º objeto
+// console.log(arrayPostagens[1].titulo);
+// console.log("--------------------")
+// console.log("----------ATIVIDADES----------")
+ 
+// ATIVIDADES
+// Trazer no console o 3º objeto
+// Trazer suas propriedades.
+// console.log(arrayPostagens[2])
+// console.log(arrayPostagens[2].titulo)
+// console.log(arrayPostagens[2].subtitulo)
+// console.log(arrayPostagens[2].data)
+// console.log(arrayPostagens[2].texto)
+// console.log("--------------------")
+ 
+// usando o loop for para percorrer a lista de obj
+// for(let i=0; i < arrayPostagens.length; i++){
+//   const titulo = arrayPostagens[i].titulo;
+//   const subtitulo = arrayPostagens[i].subtitulo;
+//   const data = arrayPostagens[i].data;
+//   const texto = arrayPostagens[i].texto;
+//   console.log(titulo)
+//   console.log(subtitulo)
+//   console.log(data)
+//   console.log(texto)
+// }
+ 
+// CRIANDO ELEMENTO NO DOM
+// const article = document.createElement('article')
+// //Populando o elemento
+// article.innerHTML=
+//   // `<h3>Rest da Jeice</h3>
+//   // <p class="subtitulo">Comida vegana para todos!</p>
+//   // <div class="data">06/07/2022</div>
+//   // <p>Restaurante em Consolação com comida por kilo no almoço e rodízio de pizzas à noite, tudo 100% vegano. Vale muito a pena conhecer :)</p>`
+ 
+// ` <h3>${arrayPostagens[0].titulo}</h3>
+//   <p class="subtitulo">${arrayPostagens[0].subtitulo}</p>
+//   <div class="data">${arrayPostagens[0].data}</div>
+//   <p>${arrayPostagens[0].texto}</p>`
+ 
+ 
+ 
+// // Adicionando no DOM
+// const main = document.querySelector('main')
+// main.appendChild(article)
+ 
+// _________________________
+ 
+for(let i = 0; i < arrayPostagens.length; i++){
+  // criando novo elemento
+  const artigo = document.createElement('article');
+ 
+  // Populando o elemento
+  artigo.innerHTML =
+  `
+  <h3>${arrayPostagens[i].titulo}</h3>
+  <p class='subtitulo'>${arrayPostagens[i].subtitulo}</p>
+  <div class='data'>${arrayPostagens[i].data}</div>
+  <p>${arrayPostagens[i].texto}</p>
+  `
+ 
+  // Adicionando ao DOM
+  const main = document.querySelector('main');
+  main.appendChild(artigo);
+}

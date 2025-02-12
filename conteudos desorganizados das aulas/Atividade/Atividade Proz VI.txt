@@ -1,0 +1,38 @@
+var
+	contador: inteiro
+	limite: inteiro
+Inicio
+contador <- 1
+limite <- 5
+enquanto (contador <= limite) faca
+	Escreva("Os Lutadores" + contador)
+	contador <- contador + 1
+fimenquanto
+fimalgoritmo
+
+###############skill issue###############################
+Exemplo de resposta:
+
+Var
+
+nomeDaEquipe: caractere
+
+contador: inteiro
+
+Inicio
+
+escreva ("Qual é o nome da sua equipe?")
+
+leia (nomeDaEquipe)
+
+contador <- 1
+
+equanto (contador <= 5) faca
+
+escreva (nomeDaEquipe, " - ", contador)
+
+contador <- contador + 1
+
+fimenquanto
+
+Fimalgoritmo

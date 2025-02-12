@@ -1,0 +1,15 @@
+qtd_rodas = 4
+peso_bruto_kg = 3500
+qtd_pessoas = 8
+
+if qtd_rodas <= 3:
+	print("A")
+elif qtd_rodas >= 4:
+    if qtd_pessoas <= 8 and peso_bruto_kg <= 3500:
+        print("B")
+    elif 3500 < peso_bruto_kg <= 6000:
+        print("C")
+    elif peso_bruto_kg > 6000 or qtd_pessoas > 8:
+        print("D")
+else:
+    print("Este resultado deveria ser impossível.")

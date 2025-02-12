@@ -1,0 +1,12 @@
+1 - Pegue uma vasilha
+2 - Quebra os ovos dentro dela
+3 - Coloque as cascas no lixo
+4 - Coloque junto a farinha e açúcar e manteira e achocolatado em pó dentro da vasilha
+5 - Pegue uma colher de madeira
+6 - Misture
+7 - Pegue uma forma
+8 - Coloque dentro da forma
+9 - Abra o forno
+10 - Coloque a forma com a massa lá dentro
+11 - Ligue, e coloque em 180° C
+12 - Após 40 minutos,remova

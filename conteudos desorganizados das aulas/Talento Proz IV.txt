@@ -1,0 +1,98 @@
+Software
+Conjunto de instruções
+Definem ações que o computador deveme executar
+
+Linhas de código que executam instruções = Algoritmo
+Lógica de programação = Ordem de execução / Ordem coerente de passos
+
+###########################################################
+Representação de um Algoritmo
+
+Pseudocódigo (fica entre início e fim)
+Fluxograma - setas e formas geométrica
+>Retângulo são passos
+>Lôsanglo são as perguntas/múltiplas opções
+###########################################################
+Váriaveis
+Armazenam informações
+
+String
+Int
+Float
+Bool
+
+numero_inteiro = 5
+numero_float = 5.7
+texto = “este é um texto”
+booleano = False
+
+print(“Este é um tipo”)
+print(type(numero_inteiro))
+print(“Este é um tipo”)
+print(type(numero_float))
+print(“Este é um tipo”)
+print(type(texto))
+print(“Este é um tipo”)
+print(type(booleano))
+
+*Em python não se declara o tipo da váriavel,diferentes de outras linguagens de programação
+
+variavel = 5
+print(“primeiro tipo”)
+print(type(variavel))
+variavel = “texto”
+print(“segundo tipo”)
+print(type(variavel))
+
+*Tipagem automática = mudança do tipo
+
+#######################################
+Operadores Lógicos
+->Operações & Comparações
+
+Atribuição
+Aritméticos
+Relacionais 
+Lógicos
+
+= Atribuição
+== "Comparação"
+
++ - * / % Aritméticos
+-> % módulo,resto da divisão
+->colocar paranteses faz com que alguns sejam feitos primeiros,assim como na matemática
+->+ pode ser usado na string,concatenando textos
+
+=
+!=
+<
+>
+=<
+=> Relacionais
+
+AND OR NOT( ! ) BOOLEAN TRUE AND FALSE Lógicos
+
+#######################################################
+
+Cada "Se" é independente
+
+If,elif é bom usar ao invés de "if if if" pois quando um deles é positivo,o teste acaba,ao invés dos vários "if" independentes
+
+Python é uma linguagem identada.
+
+: é o "então"
+
+===
+Problema: Crie um programa que calcule o status de aprovação do aluno a partir da nota dele. O código deve seguir as instruções:
+nota menor que 4: ele está reprovado;
+nota menor que 7: ele está em recuperação;
+nota maior que 7: ele está aprovado.
+===
+
+nota = 4
+if (nota < 4):
+   print("Reprovado")
+elif (nota < 7):
+   print("Em recuperação")
+elif(nota >=7):
+print("Aprovado")

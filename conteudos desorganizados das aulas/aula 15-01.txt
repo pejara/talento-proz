@@ -1,0 +1,137 @@
+/* esse é um comentário */
+ 
+/* seletor (elemento, id, classe)
+{ as regras de estilo}
+Propriedade: valor; (é a base de uma regra de CSS)
+ 
+seletor {
+    propriedade: valor;
+    propriedade: valor;
+} */
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+ 
+ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+ 
+nav ul li {
+    padding-left: 16px;
+    list-style-type: none;
+}
+ 
+/* Usando a classe como seletor (.nomedaclase)*/
+.ancora {
+    text-decoration: none;
+}
+ 
+body {
+    background-color: #593493;
+    color: #fff;
+}
+ 
+main {
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+}
+ 
+section {
+    display: flex;
+    margin-top: 30px;
+}
+ 
+.container {
+    background-color: #ff7f00;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+ 
+ 
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Link do nosso arquivo CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>ProzEducação</title>
+</head>
+<body>
+    <header>
+        <img src="./logotipo_proz.svg" alt="logo da Proz">
+ 
+        <!-- Navegação principal do site -->
+         <nav>
+            <!-- Lista não ordenada para o menu-->
+            <ul>
+                <!-- Item da lista-->
+                <li>
+                    <!--ancora link externo-->
+                    <a href="#" class="ancora">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#" class="ancora">Cursos</a>
+                </li>
+                <li>
+                    <a href="#" class="ancora">Unidades</a>
+                </li>
+                <li>
+                    <a href="#" class="ancora">Blog</a>
+                </li>
+            </ul>
+         </nav>
+    </header>
+ 
+    <main>
+        <h1>Proz</h1>
+        <h2>Como fazemos</h2>
+ 
+        <section>
+            <div class="container">
+                <h3>Conexão do Estudante com o trabalho</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vel provident quisquam ea at error perspiciatis repellat delectus? Ea, non.</p>
+            </div>  
+            <div class="container">
+                <h3>Qualidade do Curso</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vel provident quisquam ea at error perspiciatis repellat delectus? Ea, non.</p>
+            </div>  
+        </section>
+    </main>
+</body>
+</html>
+ 
+
+=====
+
+<!-- Links do Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ 
+    <!--Estabelece a conexão com o servidor da fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+}

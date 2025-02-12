@@ -1,0 +1,27 @@
+SOLUÇÃO===================
+by João Pedro Carvalho Rezende
+
+Imagine a ilustração 2 como uma matriz. O valor na coluna 1 e linha 1 é P,coluna 2 linha 1 é P,e assim por diante.
+
+LINHA DE RACIOCÍNIO: O primeiro valor é a LINHA e o segundo,COLUNA.
+Ex: 11 = P, 41 = M, etc.
+
+Agora pegue o primeiro quadrante, formando por 11,12,21,22.
+
+P P
+M P
+
+Repare que o oposto dele,ou seja,o que está no local oposto a ele nessa matriz; 55,56,65,66
+
+M M
+M P
+
+Eles são segue a mesma proporção,só mudando a posição.
+Isso vale para todos dentro da matriz, com excessões para:
+
+O meio, M P , pois ele não possui oposto;
+	P M
+
+E os quadrantes de 51,52,61,62 e seu oposto,pois seguem uma proporção de metade,mas ainda alternando suas posições.
+
+O professor percebeu que o aluno de português de 43 trocou com o de matemática de 55 ao reparar que os quadrantes mudaram suas proporções sem mudarem também com seus opostos.

@@ -1,0 +1,29 @@
+Pensamento Computacional
+
+Decomposição===
+A decomposição é a divisão do problema em porções menores para facilitar a sua resolução.
+
+Reconhecimento de padrões===
+Já o reconhecimento de padrões é o conjunto de fatos que apontam um problema.
+
+Abstração===
+A abstração consiste em pensar no problema de maneira genérica, ignorando detalhes que não são importantes para a sua resolução.
+
+Pensamento algorítmico ou simplesmente algoritmo===
+Já o pensamento algorítmico está na sequência de passos para resolver o problema.
+
+
+
+
+
+
+Alura
+stream
+AWS Educate
+NFS-e
+
+krl fui mogado
+
+2 10 12 16 17 18 19 ?
+é duzendos
+todos começam d

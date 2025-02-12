@@ -1,0 +1,88 @@
+for()
+"contador" / basicamente um conta o indice do que está ali
+
+for i in (variable)
+"para i em..."
+
+range()
+usado como o contador,gera o incrementador
+range(x,y,z)
+x é onde começa
+y onde termina,lembrete:ele vai terminar NESSE,ou seja,se for 10,só vai exibir até o 9
+z é de quanto em quanto
+--> podem ser negativos
+
+[Obs: os : são o ENTÃO,e são necessários na maioria das vezes.Só escrevendo para não esquecer // != é diferente]
+
+while (condição):
+"enquanto..."
+
++++++++++++++++++++++++++++++++
+import random
+
+random.randint(1,10)
+gera um número entre 1 e 10
++++++++++++++++++++++++++++++++
+
+i = 0
+while (i < 10):
+	print(i)
+	i = i + 1
+#basicamente o for feito no while
+
+break: interrompe todo o laço que está em execução. Geralmente, é usado junto com um if adicional para condições específicas;
+
+continue: finaliza a execução atual do laço e move para a próxima. Geralmente, é usado quando não se deseja mais executar uma parte do código.
+
+[Obs 2:a posição de checagem do código dentro dos laços de repetição importa]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problema: João começou a se exercitar na academia e foi instruído por seu personal trainer a descansar exatamente por 45 segundos entre os exercícios, porém ele sempre excede esse tempo.
+
+
+Crie um programa que mostre o progresso desse intervalo em segundos e que avise sobre quando o tempo de descanso terminar.
+
+THIS MIGHT BE USEFUL
+Solução:
+
+import time
+tempoInicial = 1
+tempoFinal = 45
+print("Iniciando descanso...")
+for i in range(tempoInicial,tempoFinal+1):
+print(i)
+time.sleep(1)
+print("Fim do descanso!")
+
+why the "i" when using for
+
+
+
+
+
+
+mudar senha ps4
+colocar pin no login
+
+começar a usar o notepad++

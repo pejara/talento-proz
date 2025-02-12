@@ -1,0 +1,62 @@
+Entrada de dados
+-Dados recebidos
+
+Processamento
+-processo
+
+Resultado
+-Saída
+
+=============================================
+
+Entrada
+-Gastos de cartão de crédito
+-Gastos em dinheiro
+-Gastos em cartão de débito
+
+Processamento
+-Soma dos três gastos
+
+Saída
+-Gastos
+
+#####################################
+
+Entrada
+-Peso (kg)
+-Altura (m)
+-Mês atual
+
+Processamento
+-Calcular a altura sobre a potência de 2
+-Dividir peso o peso pela altura calculada
+-Se for menor que 18,5 = Baixo peso
+-De 18,5 a 24,99 = Normal
+-De 25 a 29,99 = Sobrepeso
+-Maior que 30 = Obesidade
+-Salvar o IMC,classificação e mês em um histórico
+
+Saída
+-Histórico
+
+==============================================
+
+DECLARAÇÃO DE VÁRIAVEIS
+var nota: int
+var users: int
+var kid_friendly: caractere (poderia ser lógico também)
+var comment: caractere
+
+Entrada de dados
+-nota
+-nº de usuários (a cada nota,+1 para este)
+-comentário
+-"sim" ou "não" sobre ser apto as crianças
+
+Processamento
+-Pegar a nota do usuário,mais a nota de TODOS usuários,e dívidir pelo número de usuários,resultando na nota total do filme
+-Mostrar se o filme é apto ou não,mostrando quantos votos para "sim" e "não"
+-opção de comentário
+
+Resultado
+-Nota,cometário,se é apto para crianças

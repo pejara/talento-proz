@@ -1,0 +1,145 @@
+Boolean
+
+Sim e Não
+Verdadeiro ou falso
+True or False
+
+> Maior que
+=> Maior ou igual
+< Menor que
+<= Menor ou igual
+<> Diferente
+
+E / Conjunção(União)
+Ou / Disjunção(Opção)
+Não / Negação(Inversão)
+
+1 - Aritméticos
+2 - Relacionais
+3 - Lógicos
+	1 - Negação
+	2 - Conjunção
+	3 - Disjunção
+
+===============================================
+
+Estrutura simples
+"SE" e "FIMSE"
+
+se (condição) entao
+	(instruções a serem executadas se a condição for verdade)
+Fimse
+===============
+Var
+idade:inteiro
+Inicio
+   escreva("Digite a sua idade: ")
+   leia (idade)
+       se (idade >= 18) entao
+   escreva ("Você é maior de idade!")
+   fimse
+
+Estrutura composta
+"SE","SENAO" e "FIMSE"
+
+se (condição) entao
+     (instruções a serem executadas se a condição  for verdade)
+Senao
+     (instruções a serem executadas se a condição    for falsa)
+fimse
+================
+Var
+Idade:inteiro
+Inicio
+escreva("Digite sua idade: ")
+leia (idade)
+se (idade >= 18) entao
+    escreva ("Você é maior de idade!")
+senao
+    escreva ("Você é menor de idade!")
+fimse
+
+Estrutura encadeada
+Usamos vários "SE" e "SENÃO"
+Finalizando com o "FIMSE" para cada "SE" aberto
+
+se (condição) entao
+   (instruções a serem executadas se a condição  for verdade)
+senao
+   se (condição) entao
+ (instruções a serem executadas se a primeira condição for falsa)
+   Senao
+ (instruções a serem executadas se as condições anteriores  forem falsas)
+   fimse
+fimse
+==============
+Var
+numero1, numero2 : inteiro
+Inicio
+escreva("Digite o primeiro número: ")
+leia(numero1);
+escreva("Digite o segundo número: ")
+leia(numero2);
+se (numero1 == numero2) entao
+    escreva ("Os números são iguais")
+senao
+se (numero1 > numero2) entao
+escreva("O maior valor é = ", numero1);
+senao
+    escreva("O maior valor é = ", numero2);
+fimse
+fimse
+
+Estrutura de múltipla escolha
+"Escolha","Caso","Fimescolha"
+
+Var
+numero1,  numero2, resultado : Real
+operacao : Caractere
+Inicio
+      escreva ("Digite o primeiro número: ")
+      leia (numero1)
+      escreva ("Digite o símbolo da operação: ")
+      leia (operacao)
+      escreva ("Digite o segundo número: ")
+      leia (numero2)
+====================
+escolha operacao
+         caso "+"
+            resultado <- numero1 + numero2
+         caso "-"
+            resultado <- numero1 - numero2
+         caso "*"
+            resultado <- numero1 * numero2
+         caso "/"
+            resultado <- numero1 / numero2
+      fimescolha
+      escreva ("Resultado: ", resultado)
+
+###########################################################
+
+perguntar da academia
+perguntar do curso
+
+calcular gastos/calcular imc
+
+avaliação de restaurantes
+
+////////////////////////////////
+ATIVIDADES
+
+Pergunta 1
+1.Criar (Declarar) váriaveis
+2.Entrada (de dados)
+3.Processamento/operação
+4.Saída (de dados) / Resultado
+
+Pergunta 2
+1.Inteiro
+2.Reais
+3.Caractere
+4.Lógico/Boolean
+
+Pergunta 3
+Comando de entrada: informações recebidas (inseridas pelo usuário)
+Comando de saída: inofmrações exibidas ao usuário

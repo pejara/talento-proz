@@ -1,0 +1,35 @@
+var cliente:caractere
+var nDePessoas:inteiro
+
+escreva("O cliente é fumante ou tem animal de estimação?")
+leia(cliente)
+escreva("Quantas pessoas estão com o cliente?")
+leia(nDePessoas)
+
+SE (cliente <- fumante OU animal de estimacao) entao
+	escreva("Ele deve ficar na área externa")
+SENAO
+	SE (cliente <- pessoas E nDePessoas > 5) entao
+	escreva("Eles devem ficar no primeiro andar)
+	SENAO
+	escreva("Eles devem ficar no térreo")
+	FIMSE
+FIMSE
+
+CORRIGIDO==========================================
+
+Inicio
+
+escreva ("Tem algum fumante ou animal de estimação no seu grupo?")
+leia (fumantesOuPet)
+se (fumantesOuPet == verdadeiro) entao
+escreva ("Por favor, dirijam-se à área externa")
+senao
+escreva ("Quantas pessoas têm no seu grupo?")
+leia (numeroDePessoas)
+se (numeroDePessoas >= 5) entao
+escreva ("Por favor, dirijam-se ao 1ro andar")
+senao
+escreva ("Por favor, permaneçam no térreo")
+fimse
+Fimalgoritmo

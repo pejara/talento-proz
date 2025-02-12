@@ -1,0 +1,121 @@
+Playlist spotify
+arrumar Morno
+
+"Nothing after the word "but" means somethng."
+Game of Thrones
+
+discord
+jpcr.2014
+1h@tePas5words
+
+Etapas da estrutura de repetição=====================
+Toda estrutura de repetição deve ter uma variável contadora, que tem a função de controlar o número de repetições.
+Além disso, uma estrutura de repetição, deve ter uma condição que indica quando a repetição irá iniciar e quando irá finalizar. 
+Por fim, temos o incremento, que especifica um valor a ser incrementado  na variável contadora.
+=====================================================
+Estrutura de repetição com teste no início===========
+Enquanto a condição for verdade, o algoritmo repete e novamente analisa a condição no início, se for verdade, novamente repete e assim fica no looping até a condição ter um resultado falso.
+A condição, se trata de uma expressão lógica, que é avaliada antes de uma nova repetição ocorrer, enquanto o resultado da condição for verdadeiro, o algoritmo será executado, e ficará repetindo suas instruções.
+
+Para a estrutura com teste no início, é usada a seguinte sintaxe:
+
+contador <- variável contadora
+
+enquanto (contador < condição) faca
+
+(instruções a serem realizadas durante a repetição)
+
+     contador <- contador + incremento
+
+fimenquanto
+
+Neste exemplo, a variável contador inicia com o valor 1 e passa pela condição. Enquanto o contador for menor ou igual a 10 a frase “Eu amo lógica!” será mostrada na tela. Assim, essa frase será emitida na tela dez vezes.
+Var
+contador: inteiro
+Inicio
+contador <- 1
+enquanto (contador <= 10) faca
+     Escreval ("Eu amo lógica!")
+     contador <- contador + 1
+fimenquanto 
+=====================================================
+Estrutura com teste no final
+
+Já a estrutura de repetição com teste no final tem sua condição avaliada apenas no final da estrutura, logo, os comandos são executados pelo menos uma vez, já que a verificação da condição se encontra no final.
+Com essa estrutura, as instruções são repetidas até que uma determinada condição seja verdadeira.
+
+Para a estrutura com teste no final, tem-se a seguinte sintaxe:
+
+contador <- inicialização
+
+Repita
+
+(instruções a serem realizadas durante a  repetição)
+
+     contador <- contador + incremento
+
+ate (contador > condição)
+
+==========================================
+var
+   numero : inteiro
+   contador : inteiro
+inicio
+      contador <- 0
+      REPITA
+          ESCREVA ("Digite um número para a somar:  ")
+          LEIA (numero)
+          contador <- contador + numero
+          ESCREVAL ("Total: ", contador)
+      ATE numero = 0
+
+=============================================
+estrutura com variável de controle, que tem o teste previamente determinado através de uma variável de controle.
+
+Essa estrutura de repetição é utilizada quando sabemos quantas vezes as instruções precisam ser repetidas, e a própria estrutura funciona como o contador.  
+Nessa estrutura não há uma expressão lógica, pois apenas o valor limite, que repetirá as instruções, é definido. 
+
+A seguir, vamos observar a sintaxe para esse tipo de repetição.
+
+A sintaxe utilizada para a estrutura com variável de controle é:
+
+para contador de inicialização ate condição passo incremento faca
+(instruções a serem realizadas durante a  repetição)
+fimpara
+
+var
+numero, contador: inteiro
+Inicio
+escreva ("Digite o número que deseja verificar a tabuada de soma: ")
+leia(numero)
+para contador <- 0 ate 10  faca
+Escreval (numero, " + ", contador, " = ", numero + contador)
+fimpara
+
+
+
+
+/////////////////////////////////////////////////////
+
+Var
+contador: inteiro
+Inicio
+contador <- 1
+enquanto (contador <= 10) faca
+     Escreval ("Eu amo lógica!")
+     contador <- contador + 1
+fimenquanto 
+
+GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO GO BROLY GO GO 
+
+Var
+	contador: inteiro
+	limite: inteiro
+Inicio
+contador <- 1
+limite <- 5
+enquanto (contador <= limite) faca
+	Escreva("Os Lutadores" + contador)
+	contador <- contador + 1
+fimenquanto
+fimalgoritmo
