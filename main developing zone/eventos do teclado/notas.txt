@@ -1,0 +1,25 @@
+keypress	Tipo de evento que só reconhece teclas de letras, números ou pontuação, ou seja, desconsidera teclas como Shift, Alt, setas etc.
+keydown	Tipo de evento disparado ao apertar uma tecla. Ele é executado de forma repetida se a tecla permanece apertada.
+keyup	Tipo de evento disparado ao soltar uma tecla. Importante destacar que, antes, ela precisa ser pressionada.
+
+Os eventos de teclado podem ser atribuídos a elementos do tipo input se quisermos, por exemplo, ativá-los apenas quando o usuário inserir alguma informação em um local específico e travando se ele escrever em outro; ou diretamente no DOM, se quisermos que o evento seja disparado em qualquer parte da nossa página. 
+
+No nosso caso, o evento de teclado será aplicado diretamente no objeto Document para dispará-lo sem precisar selecionar nenhum elemento específico. Assim, o site reconhecerá o comando logo quando clicarmos em alguma tecla.
+
+O nome KeyboardEvent indica que o evento disparado é um evento de teclado.
+
+Conforme o exemplo anterior, ao apertar a tecla "A" do teclado, serão retornadas duas linhas no terminal: a letra "A" minúscula e o código KeyA.
+
+A primeira linha representa o valor que essa tecla guarda, neste caso, é a, e a segunda linha representa o único código que esse botão do teclado guarda.
+
+ 
+
+Podemos comparar key e code como variáveis, pois duas variáveis diferentes podem salvar o mesmo valor, mas não podem ter o mesmo nome.
+
+Para teclas com valores únicos, como as letras, podemos usar qualquer uma das propriedades sem problemas. Contudo, para teclas que compartilham valores com outras, é mais recomendável usar a propriedade code.
+
+style.left Esta propriedade recebe uma string com o valor em pixels, rem, porcentagem ou qualquer unidade de medida CSS.
+É necessário concatenar uma string usando o valor da variável distanciaDaEsquerda e a string px para a unidade de medida pixels.
+
+Embora pouco usados no desenvolvimento web, os eventos de teclado podem destacar os nossos sites, oferecendo a possibilidade do usuário interagir com a página usando o teclado. 
+Fechar um pop-up com a tecla Escape ou mostrar subseções da barra de navegação apertando teclas numéricas são exemplos de interações práticas e simples de implementar nos sites.

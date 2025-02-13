@@ -1,0 +1,10 @@
+A linguagem JavaScript oferece uma série de funções nativas, ou métodos nativos, para agilizar o nosso fluxo de trabalho. Algumas delas são muito comuns e utilizadas, como o console.log() e o addEventListener().
+Nessa aula, entenderemos sobre duas funções nativas da linguagem JavaScript: preventDefault() e alert().
+
+O atributo target, com o valor _blank, serve para abrir um link em uma nova aba.
+
+O atributo name garante que a informação do input será enviada.
+
+Os botões do tipo submit servem para enviar as informações preenchidas nos formulários.
+
+Para impedir o comportamento padrão do link, adicionamos um eventListener ao elemento linkProz. Como o evento que dispara o comportamento padrão do link é o click, o adicionamos como primeiro argumento e uma função anônima como segundo, a qual  tem um argumento evento:

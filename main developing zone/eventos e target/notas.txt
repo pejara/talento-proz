@@ -1,0 +1,15 @@
+Os elementos span são do tipo inline. Usaremos eles para inserir conteúdo textual em linguagem JavaScript dentro do elemento h2.
+
+Para acessar as propriedades do evento, devemos declarar a função anônima com um parâmetro dentro dos parênteses dela.
+
+Este parâmetro representa um objeto com todas as propriedades do evento. Por isso, é comum chamá-lo de evento ou de e.
+
+No terminal, podemos imprimir todas as propriedades que o evento guarda. Para isso, basta fazer um console.log( ) e passar o parâmetro evento como argumento:
+
+botaoTempo.addEventListener("click", function(evento){
+
+  console.log(evento);
+
+}); //ao clicar no botão mostra
+
+Embora a propriedade target seja a mais usada para acessar as informações do elemento que disparou o evento, outras propriedades (como timeStamp, clientX, clientY, type) podem ser usadas para trabalhar com informações do evento em si.
